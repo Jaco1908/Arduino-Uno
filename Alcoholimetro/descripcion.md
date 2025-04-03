@@ -34,12 +34,6 @@ El sistema está diseñado para detectar el nivel de alcohol en sangre y mostrar
 - **Teclado 4x4**: Conectado a los pines digitales de Arduino.
 - **LEDs y buzzer**: Conectados a los pines digitales de Arduino.
 
-## Código:
-El código utiliza las siguientes bibliotecas para funcionar correctamente:
-- **Wire.h**: Comunicación I2C para la pantalla OLED.
-- **Adafruit_SSD1306.h**: Control de la pantalla OLED.
-- **Adafruit_GFX.h**: Funciones gráficas para la pantalla OLED.
-- **Keypad.h**: Gestión del teclado 4x4.
 
 El código lee el valor analógico del sensor de alcohol, lo convierte en g/L y muestra el resultado en la pantalla OLED. Además, controla los LEDs y el buzzer en función del nivel de alcohol y permite desactivar la alarma ingresando la contraseña correcta en el teclado.
 
